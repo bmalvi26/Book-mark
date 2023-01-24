@@ -1,0 +1,84 @@
+body{
+    background-color:lightblue;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    color: darkcyan;
+    text-align: center;
+    margin:20px;
+    padding:10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform:uppercase;
+}
+.container{
+    background-color: darkseagreen;
+    margin:auto;
+    padding:30px;
+    width: 400px;   
+    height:400px;
+    box-sizing: border-box;
+    box-shadow: darkslategray;
+    display:grid;
+    border-radius: 10px;
+}
+
+.container h3{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:lightslategray;
+    text-transform: uppercase;
+
+    
+}
+#my-form{
+   height: 300px;
+   text-align: center;
+}
+
+#my-form input[type="text"]{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 80%;
+    border:1px solid black;
+    border-radius: 2px;
+    padding: 10px;
+    margin:10px;
+}
+#my-form input[type="submit"]{
+    background-color:darkgray;
+    border: none    ;
+    padding:10px 15px;
+    
+    cursor:grab;
+    border-radius: 4px;
+    }
+
+#my-form input[type="submit"]:hover{
+    background-color: cadetblue;
+}
+.form-group{
+    padding:10px;
+    margin:20px;
+}
+
+.form-group label{
+    display:block;
+    text-align: center;
+}
+.container-links{
+    background-color:darkseagreen;
+    margin-top:30px;
+    padding:30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    float:center;
+    
+}
+.container-links h3{
+    border-bottom: 1px solid black;
+    
+
+}
+.container-links a{
+    text-decoration: none;
+}
